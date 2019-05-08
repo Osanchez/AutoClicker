@@ -6,6 +6,6 @@ Uses Direct Input Kebyboard and Mouse inputs so that DirectX games can detect in
 Had to use a method that directX would recognize
 
 # Bugs
-* Mouse Movement are very buggy
+* Mouse Movement
 # Versions
 
