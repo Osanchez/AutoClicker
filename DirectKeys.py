@@ -60,6 +60,8 @@ def get_pos():
 
 def Move(x, y):
     current_pos = get_pos()
+    print("Current Position: ", current_pos['x'], current_pos['y'])
+    print("New Position: " + str(current_pos['x'] + x), str(current_pos['y'] + y))
     SetPos(current_pos['x'] + x, current_pos['y'] + y)
 
 def SetPos(x, y):
@@ -93,12 +95,12 @@ if __name__ == '__main__':
     PressKey(0x11)
     time.sleep(1)
     ReleaseKey(0x11)
-    time.sleep(4)
+    time.sleep(1)
 
     # right to left mouse
     print("right and left")
     Move(500, 0)
-    time.sleep(5)
-    Move(-500, 0)
+    time.sleep(1)
+
 
 
